@@ -1,0 +1,25 @@
+[package]
+authors = ["Alexander Thaller <alexander.thaller@trivago.com>"]
+name = "lablog_store"
+version = "0.1.0"
+license = "MIT"
+readme = "README.md"
+description = """
+Store trait for implementing stores that are use by lablog.
+"""
+documentation = "https://github.com/lablog-rs/lablog_store"
+homepage = "https://github.com/lablog-rs/lablog_store"
+repository = "https://github.com/lablog-rs/lablog_store"
+
+[dependencies]
+error-chain = "0.11"
+serde = "1.0"
+serde_derive = "1.0"
+custom_derive = "0.1"
+
+[dependencies.chrono]
+features = ["serde"]
+version = "0.4"
+
+[dev-dependencies]
+pretty_assertions = "0.4"
