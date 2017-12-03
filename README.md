@@ -1,4 +1,3 @@
-# lablog_lib_v2 [![Build Status](https://travis-ci.org/lablog-rs/lablog_lib_v2.svg?branch=master)](https://travis-ci.org/lablog-rs/lablog_lib_v2)
+# lablog_store [![Build Status](https://travis-ci.org/lablog-rs/lablog_store.svg?branch=master)](https://travis-ci.org/lablog-rs/lablog_store)
 
-Contains code for the older store version of lablog. Used for conversion into
-newer store version.
+Store trait for implementing stores that are use by lablog.
